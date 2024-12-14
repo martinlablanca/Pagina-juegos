@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(61, 61, 61);
+}
+
+.carousel-item img {
+  height: 300px;
+  width: 500px;
+  object-fit: cover; 
+}

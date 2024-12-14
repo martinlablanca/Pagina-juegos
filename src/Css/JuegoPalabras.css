@@ -1,0 +1,44 @@
+.body-juego-palabras {
+    background-image: url(../imagenes/fondo.gif);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 80%;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+#randomWord {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+.time-container,
+.score-container {
+    font-size: 1.2rem;
+}
+
+button {
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1rem;
+    color: black;
+    border: 5px #B0FFFA solid;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: #B0FFFA;
+    color: black;
+}
